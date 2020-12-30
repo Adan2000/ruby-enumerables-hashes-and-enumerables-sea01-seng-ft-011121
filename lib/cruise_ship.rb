@@ -5,12 +5,12 @@
 # suite_d: "Charlie Chaplin", 
 # suite_e: "Crumpet the Elf"
 # }
-require 'pry'
+
 def select_winner(passengers)
-  # add the code snippet here!
+
   winner = ""
 passengers.each do |suite, name|
-  binding.pry
+
   if suite == :suite_a && name.start_with?("A")
     winner = name
   end
